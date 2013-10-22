@@ -27,6 +27,13 @@
 			remoteGlobalIDString = F072849C1817092700E471FE;
 			remoteInfo = "CS341-midterm-01";
 		};
+		F0C4B2E71817407B00F2D2A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0C4B2E11817407A00F2D2A3 /* CS341-midterm-03.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F0C4B2D51817407A00F2D2A3;
+			remoteInfo = "CS341-midterm-03";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +57,7 @@
 		F07284761816EC1C00E471FE /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		F072848D1817090F00E471FE /* CS341-midterm-02.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CS341-midterm-02.xcodeproj"; path = "CS341-midterm-02/CS341-midterm-02.xcodeproj"; sourceTree = "<group>"; };
 		F07284A81817092700E471FE /* CS341-midterm-01.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CS341-midterm-01.xcodeproj"; path = "CS341-midterm-01/CS341-midterm-01.xcodeproj"; sourceTree = "<group>"; };
+		F0C4B2E11817407A00F2D2A3 /* CS341-midterm-03.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CS341-midterm-03.xcodeproj"; path = "CS341-midterm-03/CS341-midterm-03.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,7 @@
 		F07284601816EBEF00E471FE = {
 			isa = PBXGroup;
 			children = (
+				F0C4B2E11817407A00F2D2A3 /* CS341-midterm-03.xcodeproj */,
 				F07284A81817092700E471FE /* CS341-midterm-01.xcodeproj */,
 				F072848D1817090F00E471FE /* CS341-midterm-02.xcodeproj */,
 				F072846B1816EBEF00E471FE /* CS341-midterm */,
@@ -104,6 +113,14 @@
 			isa = PBXGroup;
 			children = (
 				F07284AD1817092800E471FE /* CS341-midterm-01 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0C4B2E21817407A00F2D2A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0C4B2E81817407B00F2D2A3 /* CS341-midterm-03 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +173,10 @@
 					ProductGroup = F072848E1817090F00E471FE /* Products */;
 					ProjectRef = F072848D1817090F00E471FE /* CS341-midterm-02.xcodeproj */;
 				},
+				{
+					ProductGroup = F0C4B2E21817407A00F2D2A3 /* Products */;
+					ProjectRef = F0C4B2E11817407A00F2D2A3 /* CS341-midterm-03.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -177,6 +198,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = "CS341-midterm-01";
 			remoteRef = F07284AC1817092800E471FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0C4B2E81817407B00F2D2A3 /* CS341-midterm-03 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "CS341-midterm-03";
+			remoteRef = F0C4B2E71817407B00F2D2A3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -295,6 +323,7 @@
 				F07284741816EBEF00E471FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
