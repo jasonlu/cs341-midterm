@@ -12,6 +12,23 @@
 		F07284771816EC1C00E471FE /* Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F07284751816EC1C00E471FE /* Utility.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F07284911817091000E471FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F072848D1817090F00E471FE /* CS341-midterm-02.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F07284811817090F00E471FE;
+			remoteInfo = "CS341-midterm-02";
+		};
+		F07284AC1817092800E471FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07284A81817092700E471FE /* CS341-midterm-01.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F072849C1817092700E471FE;
+			remoteInfo = "CS341-midterm-01";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		F07284671816EBEF00E471FE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -31,6 +48,8 @@
 		F072846E1816EBEF00E471FE /* CS341_midterm.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CS341_midterm.1; sourceTree = "<group>"; };
 		F07284751816EC1C00E471FE /* Utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utility.cpp; sourceTree = "<group>"; };
 		F07284761816EC1C00E471FE /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		F072848D1817090F00E471FE /* CS341-midterm-02.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CS341-midterm-02.xcodeproj"; path = "CS341-midterm-02/CS341-midterm-02.xcodeproj"; sourceTree = "<group>"; };
+		F07284A81817092700E471FE /* CS341-midterm-01.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CS341-midterm-01.xcodeproj"; path = "CS341-midterm-01/CS341-midterm-01.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,8 @@
 		F07284601816EBEF00E471FE = {
 			isa = PBXGroup;
 			children = (
+				F07284A81817092700E471FE /* CS341-midterm-01.xcodeproj */,
+				F072848D1817090F00E471FE /* CS341-midterm-02.xcodeproj */,
 				F072846B1816EBEF00E471FE /* CS341-midterm */,
 				F072846A1816EBEF00E471FE /* Products */,
 			);
@@ -69,6 +90,22 @@
 				F072846E1816EBEF00E471FE /* CS341_midterm.1 */,
 			);
 			path = "CS341-midterm";
+			sourceTree = "<group>";
+		};
+		F072848E1817090F00E471FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F07284921817091000E471FE /* CS341-midterm-02 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F07284A91817092700E471FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F07284AD1817092800E471FE /* CS341-midterm-01 */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,12 +147,39 @@
 			mainGroup = F07284601816EBEF00E471FE;
 			productRefGroup = F072846A1816EBEF00E471FE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F07284A91817092700E471FE /* Products */;
+					ProjectRef = F07284A81817092700E471FE /* CS341-midterm-01.xcodeproj */;
+				},
+				{
+					ProductGroup = F072848E1817090F00E471FE /* Products */;
+					ProjectRef = F072848D1817090F00E471FE /* CS341-midterm-02.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F07284681816EBEF00E471FE /* CS341-midterm */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F07284921817091000E471FE /* CS341-midterm-02 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "CS341-midterm-02";
+			remoteRef = F07284911817091000E471FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F07284AD1817092800E471FE /* CS341-midterm-01 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "CS341-midterm-01";
+			remoteRef = F07284AC1817092800E471FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F07284651816EBEF00E471FE /* Sources */ = {
