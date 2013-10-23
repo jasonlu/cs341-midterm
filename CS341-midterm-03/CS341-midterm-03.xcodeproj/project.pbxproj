@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F034D0BE1818460D00CD96F8 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		F0C4B2D51817407A00F2D2A3 /* CS341-midterm-03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS341-midterm-03"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C4B2D81817407A00F2D2A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F0C4B2DA1817407A00F2D2A3 /* CS341_midterm_03.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CS341_midterm_03.1; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				F0C4B2D81817407A00F2D2A3 /* main.cpp */,
+				F034D0BE1818460D00CD96F8 /* Node.h */,
 				F0C4B2DA1817407A00F2D2A3 /* CS341_midterm_03.1 */,
 			);
 			path = "CS341-midterm-03";
@@ -225,6 +227,7 @@
 				F0C4B2E01817407A00F2D2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
